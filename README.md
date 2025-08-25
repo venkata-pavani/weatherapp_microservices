@@ -24,11 +24,11 @@ A Flask-based Weather App that fetches real-time weather data using the AccuWeat
 
 ### Project Structure
 WeatherApp_FlaskAPI/
-├── app.py                  ## Main Flask application
-├── weather_service.py      ## Weather fetching logic
+├── app.py                  ## Main Flask application <br>
+├── weather_service.py      ## Weather fetching logic <br>
 ├── templates/
-│   └── weather.html        ## HTML template for displaying weather data
-└── README.md               ## Project documentation
+│   └── weather.html        ## HTML template for displaying weather data <br>
+└── README.md               ## Project documentation <br>
 
 ### Steps
 1. **Clone the Repository**:
