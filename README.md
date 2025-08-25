@@ -33,12 +33,12 @@ WeatherApp_FlaskAPI/
 ### Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/your-username/weatherapp_microservices.git
 2.   cd weather-app
 3.   **Start the App**
        python app.py
 4. Access app in the browser
-   http://127.0.0.1:8080/weather/<zipcode>
+   http://127.0.0.1:8080/weather/{zipcode}
 ### How it looks 
    <img width="1897" height="593" alt="image" src="https://github.com/user-attachments/assets/64d3fa09-a5d0-4e42-b4b2-0806865075a6" />
 
