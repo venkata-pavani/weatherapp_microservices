@@ -1,1 +1,48 @@
-
+<!-- filepath: e:\Projects\WeatherApp_FlaskAPI\templates\weather.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .weather-report {
+            border: 2px solid #007BFF;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #e9f5ff;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-report">
+        <h1>Weather Report for {{ zipcode }}</h1>
+        <p><strong>Condition:</strong> {{ weather_text }}</p>
+        <p><strong>Temperature:</strong> {{ temperature }}°C</p>
+        <p><strong>Precipitation:</strong> {{ precip_msg }}</p>
+    </div>
+    <footer>
+        <p>
+            <i>
+                This project uses the 
+                <a href="https://developer.accuweather.com/apis" target="_blank">AccuWeather API</a>. 
+                Developed by 
+                <a href="https://www.linkedin.com/in/pavani-nrusimhadevara/" target="_blank">Pavani Nrusimhadevara</a>. 
+                Code is available on 
+                <a href="https://github.com/venkata-pavani" target="_blank">GitHub</a>.
+            </i>
+        </p>
+    </footer>
+</body>
+</html>
