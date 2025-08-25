@@ -43,16 +43,17 @@ A Flask-based Weather App that fetches real-time weather data using the AccuWeat
 ### How it looks 
    <img width="1897" height="593" alt="image" src="https://github.com/user-attachments/assets/64d3fa09-a5d0-4e42-b4b2-0806865075a6" />
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
+## Acknowledgments
 AccuWeather API: For providing weather data.
 Flask: For the web framework.
 Python: For making development easy and fun.
+
 [Visit AccuWeather API](https://developer.accuweather.com/apis)
-Author
+## Author
 Developed by [Pavani Nrusimhadevara](https://www.linkedin.com/in/pavani-nrusimhadevara/).
-Code is available on GitHub(https://github.com/venkata-pavani).
+Code is available on [GitHub](https://github.com/venkata-pavani).
+
+#License
+***This project is licensed under the MIT License. See the LICENSE file for details.***
 
 
